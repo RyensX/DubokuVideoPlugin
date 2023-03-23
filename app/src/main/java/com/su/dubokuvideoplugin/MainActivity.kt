@@ -12,7 +12,7 @@ class MainActivity : Activity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(TextView(this).apply {
-            text = "请打开媒体盒子APP启动插件[${getString(R.string.app_name)}]"
+            text = "请打开媒体盒子APP启动插件123123[${getString(R.string.app_name)}]"
         })
     }
 }
